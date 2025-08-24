@@ -27,6 +27,41 @@ Zooming in on lower right arrow takes us to what we will focus on in this course
 3. Different types of obs in defferent data frames
 
 ## Polars DataFrame operations that we will use
-1. Filter
+1. Filter - indexing to specific rows
 2. Selection - do a calculation
 3. groupby + aggregate
+
+### Intro to Pivotting:
+A table can be "wide" or "long".
+Example:
+```
+# LONG:
+| participant number | timepoint | measurement |
+|--------------------|-----------|-------------|
+| 1                  | pre       | 5.1         |
+| 1                  | post      | 6.3         |
+| 2                  | pre       | 4.9         |
+| 2                  | post      | 5.8         |
+
+# WIDE:
+| participant number | pre | post |
+|--------------------|-----|------|
+| 1                  | 5.1 | 6.3  |
+| 2                  | 4.9 | 5.8  |
+```
+is "wide" format.<br>
+We can convert between the two.
+
+# Plots:
+## Data types:
+1. Quantitative - continuous - floating point numbers
+2. Ordinal - something with an order to it - discrete - integers
+3. Temporal - time - dates - take into account time series nature
+4. Geospatial - locations
+5. Categorical - no inherent order
+
+Another thing that was mentioned is the importance of always making an effort to show all the data points in a plot, not just summary statistics. He showed something about an **ECDF** instead of a **CDF** of **PDF** but I had to leave.
+
+### Side comments:
+> - **PyJanitor** - https://pyjanitor-devs.github.io/pyjanitor/
+> - Pre-optimization is the source of all evil.
