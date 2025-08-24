@@ -25,3 +25,8 @@ Zooming in on lower right arrow takes us to what we will focus on in this course
 1. Each row is an observation
 2. Each column is a variable
 3. Different types of obs in defferent data frames
+
+## Polars DataFrame operations that we will use
+1. Filter
+2. Selection - do a calculation
+3. groupby + aggregate
