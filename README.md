@@ -6,9 +6,10 @@
 
 ## Important Links
 - [Course website](https://wis-stats.github.io/)
+- [Distribution Explorer](https://distribution-explorer.github.io/)
 - [Instructions](https://wis-stats.github.io/appendices/setting_up_python_computing_environment.html)
 - [Module page](https://feinberg.weizmann.ac.il/course/view.php?id=1482)
-- [Course notes](https://bebi103b.github.io/)
+- [Course notes from the past](https://bebi103b.github.io/)
 
 ## My directory and activation
 - Dir: `/home/tomerantman/projects/wis-stats`

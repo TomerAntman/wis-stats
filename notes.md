@@ -1,3 +1,4 @@
+# 24/08/25
 
 - "syllogism" - if "this" then "that" must follow
 
@@ -65,3 +66,24 @@ Another thing that was mentioned is the importance of always making an effort to
 ### Side comments:
 > - **PyJanitor** - https://pyjanitor-devs.github.io/pyjanitor/
 > - Pre-optimization is the source of all evil.
+
+# 25/08/25
+## What is "Probability"?
+- **Frequentist:** probability is a long-term frequency of outcomes
+- **Bayesian:** probability is a measure of plausibility. You can ascribe probabilities to any logical conjecture.
+
+
+- `random variable`: a variable whose value is subject to variations due to chance (i.e., randomness).
+- `bias`: systematic error introduced into sampling or testing by selecting or encouraging one outcome or answer over others (loaded dice for example)
+
+## [Distribution explorer](https://distribution-explorer.github.io/)
+Stories and explanations of different distributions.
+
+- **Poisson process**: The amount of time until the next event ('arrival') in independent of the previous event.
+- - Exponential distribution: models **the time between events** in a Poisson process.
+- - Poisson distribution: models **the number of events** in a fixed interval of time or space in a Poisson process.
+
+### Nonhomogeneous Poisson process
+A Poisson process where the rate parameter $\beta$ ($\lambda$) is a function of time.<br>
+$\beta = \beta(t)$<br>
+... see notes on ipad pdf...
