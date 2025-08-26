@@ -87,3 +87,10 @@ Stories and explanations of different distributions.
 A Poisson process where the rate parameter $\beta$ ($\lambda$) is a function of time.<br>
 $\beta = \beta(t)$<br>
 ... see notes on ipad pdf...
+
+
+# 26/08/25
+## Bayesian inference and Stan
+- Read about "Generated quantities" block in the "Hello world" section in the notes
+- Look at 70 - Sampling out of a bivariate Normal distribution
+- Important issue: [The Funnel of Hell](https://wis-stats.github.io/lessons/principled/mcmc_diagnostics.html#the-funnel-of-hell)
