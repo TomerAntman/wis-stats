@@ -94,3 +94,8 @@ $\beta = \beta(t)$<br>
 - Read about "Generated quantities" block in the "Hello world" section in the notes
 - Look at 70 - Sampling out of a bivariate Normal distribution
 - Important issue: [The Funnel of Hell](https://wis-stats.github.io/lessons/principled/mcmc_diagnostics.html#the-funnel-of-hell)
+
+# 28/08/25
+- `Stan` can't sample a discrete distribution, so we have to choose continous distributions for the estimated parameters of the prior.
+- If we want a prior and don't have actual data, we don't need `Stan`, we can just use numpy
+- Always let `Stan` "warmup" (that's the default)
