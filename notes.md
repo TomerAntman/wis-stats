@@ -99,3 +99,19 @@ $\beta = \beta(t)$<br>
 - `Stan` can't sample a discrete distribution, so we have to choose continous distributions for the estimated parameters of the prior.
 - If we want a prior and don't have actual data, we don't need `Stan`, we can just use numpy
 - Always let `Stan` "warmup" (that's the default)
+
+# 02/09/25
+- We talked about [optimization](https://wis-stats.github.io/lessons/optimization/optimization.html)
+- Also [variate-covariate models](https://wis-stats.github.io/lessons/variate_covariate/intro_variate_covariate.html)
+
+# 04/09/25
+## Frequentist vs Bayesian
+- IMP = implementation - how easy to do
+- INT = interpertation - how easy to explain
+
+|               |     | Frequentist  | Bayesian |
+|---------------|-----|--------------|----------|
+| NonParamteric | IMP | Easy         | Hard     |
+| NonParamteric | INT | Easy         | Hard     |
+| Parametric    | IMP | Usually hard | Doable   |
+| Parametric    | INT | Confusing    | Easy     |

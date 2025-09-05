@@ -6,6 +6,7 @@
 
 ## Important Links
 - [Course website](https://wis-stats.github.io/)
+- [Git Repo](https://github.com/wis-stats)
 - [Distribution Explorer](https://distribution-explorer.github.io/)
 - [Instructions](https://wis-stats.github.io/appendices/setting_up_python_computing_environment.html)
 - [Module page](https://feinberg.weizmann.ac.il/course/view.php?id=1482)
